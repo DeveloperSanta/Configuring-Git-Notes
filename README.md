@@ -58,3 +58,15 @@ The snippet of code I use is [here](https://askubuntu.com/questions/730754/how-d
 [git log adog source](https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs)
 
 [git log adog section](https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs#:~:text=here%20it%20is%3A-,git%20log%20%2D%2Dall%20%2D%2Ddecorate%20%2D%2Doneline%20%2D%2Dgraph,-Not%20everyone%20would)
+
+## Useful Visual Studio Code Extensions
+
+The table below includes some helpful extensions to aid in your development. You can search for these extensions using the `Extension ID` in Visual Studio Code.
+
+| Extension Name | Extension ID | VS Marketplace Link |
+|-|-|-|
+| Code Spell Checker | streetsidesoftware.code-spell-checker | https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker |
+| Docker | ms-azuretools.vscode-docker | https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker |
+| Git Graph | mhutchie.git-graph | https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph |
+| Markdown All in One | yzhang.markdown-all-in-one | https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one |
+| Prettify JSON | mohsen1.prettify-json | https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json |

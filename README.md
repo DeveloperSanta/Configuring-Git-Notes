@@ -24,7 +24,7 @@ Once you have created the key (assuming you saved it in the default location) co
 
 The first time you attempt to make a commit, you might encounter an error that says `Author identity unknown *** Please tell me who you are.`.
 
-To fix this, run the following commands (and update them with your username and email):
+To fix this, run the following commands (and update them with your username and email address):
 
 ```bash
 git config --global user.email "you@example.com"

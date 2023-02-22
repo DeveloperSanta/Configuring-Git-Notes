@@ -36,6 +36,8 @@ Then you can run the `git commit` command again.
 | Command                                               | Description                                                                                             |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | git clone [GITHUB REPOSITORY]                         | Clone a remote repository to your local computer                                                        |
+| git checkout [BRANCH NAME]                            | Checkout to a new branch (local or remote)                                                              |
+| git checkout -b [BRANCH NAME]                         | Create a new branch from the branch you are currently using                                             |
 | git status                                            | Get information of the currently staged & unstaged files and the number of commits your branch is ahead |
 | git add --all                                         | Stage all files (be careful)                                                                            |
 | git add .                                             | Stage all files in the current working directory                                                        |
@@ -43,6 +45,7 @@ Then you can run the `git commit` command again.
 | git commit -m "commit message"                        | Commit staged files with a custom message                                                               |
 | git push                                              | Push the local branch to the remote branch                                                              |
 | git push --set-upstream origin [BRANCH NAME]          | If you create a new local branch and run `git push` you will get this command                           |
+| git pull                                              | Pull down code changes from the remote source                                                           |
 | git log                                               | Show an interactive log of all commits                                                                  |
 | git log --all --decorate --oneline --graph            | Show a consolidated text based graph of commits                                                         |
 

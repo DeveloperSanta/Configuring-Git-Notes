@@ -52,7 +52,7 @@ The snippet of code I use is [here](https://askubuntu.com/questions/730754/how-d
 | git add [FILE NAME]                          | Stage a specific file                                                                                   |
 | git commit -m "commit message"               | Commit staged files with a custom message                                                               |
 | git push                                     | Push the local branch to the remote branch                                                              |
-| git push --set-upstream origin [BRANCH NAME] | If you create a new local branch and run `git push` for the first time you will get this command        |
+| git push --set-upstream origin [BRANCH NAME] | If you create a new local branch and run `git push` (for the first time) you will get this command      |
 | git pull                                     | Pull down code changes from the remote source                                                           |
 | git log                                      | Show an interactive log of all commits                                                                  |
 | git log --all --decorate --oneline --graph   | Show a consolidated text based graph of commits                                                         |

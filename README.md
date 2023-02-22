@@ -20,18 +20,18 @@ Once you have created the key (assuming you saved it in the default location) co
 
 ## Useful git Commands
 
-| Command                                               | Description                                                                   |
-|-------------------------------------------------------|-------------------------------------------------------------------------------|
-| git clone [GITHUB REPOSITORY]                         | Clone a remote repository to your local computer                              |
-| git status                                            | Get information of the currently staged and unstaged files                    |
-| git add --all                                         | Stage all files (be careful)                                                  |
-| git add .                                             | Stage all files in the current working directory                              |
-| git add [FILE NAME]                                   | Stage a specific file                                                         |
-| git commit -m "commit message"                        | Commit staged files with a custom message                                     |
-| git push                                              | Push the local branch to the remote branch                                    |
-| git push --set-upstream origin [BRANCH NAME]          | If you create a new local branch and run `git push` you will get this command |
-| git log                                               | Show an interactive log of all commits                                        |
-| git log --all --decorate --oneline --graph            | Show a consolidated text based graph of commits                               |
+| Command                                               | Description                                                                                             |
+|-------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| git clone [GITHUB REPOSITORY]                         | Clone a remote repository to your local computer                                                        |
+| git status                                            | Get information of the currently staged & unstaged files and the number of commits your branch is ahead |
+| git add --all                                         | Stage all files (be careful)                                                                            |
+| git add .                                             | Stage all files in the current working directory                                                        |
+| git add [FILE NAME]                                   | Stage a specific file                                                                                   |
+| git commit -m "commit message"                        | Commit staged files with a custom message                                                               |
+| git push                                              | Push the local branch to the remote branch                                                              |
+| git push --set-upstream origin [BRANCH NAME]          | If you create a new local branch and run `git push` you will get this command                           |
+| git log                                               | Show an interactive log of all commits                                                                  |
+| git log --all --decorate --oneline --graph            | Show a consolidated text based graph of commits                                                         |
 
 [git log adog source](https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs)
 

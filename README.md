@@ -8,6 +8,8 @@ These commands work on a Linux based Operating System as well as using the [Wind
 
 ## Creating an SSH Key
 
+Run the following command (and update it with your email address) to create a new SSH key pair:
+
 ```bash
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```

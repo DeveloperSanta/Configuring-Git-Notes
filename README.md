@@ -18,6 +18,19 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 Once you have created the key (assuming you saved it in the default location) copy the contents of the public key `~/.ssh/id_rsa.pub` and create a new SSH key in [GitHub](https://github.com/settings/keys).
 
+## Setting git Author
+
+The first time you attempt to make a commit, you might encounter an error that says `Author identity unknown *** Please tell me who you are.`.
+
+To fix this, run the following commands (and update them with your username and email):
+
+```bash
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+Then you can run the `git commit` command again.
+
 ## Useful git Commands
 
 | Command                                               | Description                                                                                             |

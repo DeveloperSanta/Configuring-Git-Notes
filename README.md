@@ -31,6 +31,12 @@ git config --global user.name "Your Name"
 
 Then you can run the `git commit` command again.
 
+## Adding git Branch to Bash Terminal
+
+This section is optional and allows you to update your `.bashrc` file to include the name of the branch you are working on in your Terminal.
+
+The snippet of code I use is [here](https://askubuntu.com/questions/730754/how-do-i-show-the-git-branch-with-colours-in-bash-prompt#:~:text=218-,This%20snippet%3A,-%23%20Add%20git%20branch) and the source can be found [here](https://askubuntu.com/questions/730754/how-do-i-show-the-git-branch-with-colours-in-bash-prompt).
+
 ## Useful git Commands
 
 | Command                                               | Description                                                                                             |
